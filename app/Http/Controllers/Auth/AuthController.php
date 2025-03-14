@@ -30,7 +30,7 @@ class AuthController extends Controller
         // 今このコントローラーを呼び出した人が、すでにログインしている場合
         // もう一度ログインをする必要はないので、操作ミスということにしてホーム画面へリダイレクト・遷移させる
 
-        // [月森]　念のため実装を見送ります
+        // 　念のため実装を見送ります
 
         // session()->flash('message', 'すでにログインしています。');
         // $this->middleware('guest');
